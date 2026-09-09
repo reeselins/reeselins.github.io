@@ -1,142 +1,173 @@
-<html lang="en">
+/*CSS document*/
 
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">  
-<link rel="stylesheet" type="text/css" href="style.css">
-    <title>Koberl at Blue Menu</title>
-</head>
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+img {
+
+    width: 100%;
+
+    display: block;
+
+}
 
 
-<body>
-    <h1>Koberl at Blue</h1>
-    <h2>Main Menu</h2>
+body {
+    background-color: rgb(244, 244, 244);
+    /* Not totally white. */
+    color: rgb(34, 30, 30);
+    /* Not totally black. */
+    line-height: 160%;
+    /* A little extra leading. */
+    font-family: serif;
+}
 
-    <h3>Appetizers</h3>
-    <ul>
-        <li>
-            <h4>Tempura Fried</h4>
-            <p>with lemon soy aioli and wasabi tobiko</p>
-            <p>$16.00</p>
-        </li>
+h1 {
+    background-color: rgb(137, 138, 142);
+    color: rgb(244, 244, 244);
+    /* Same as body background. */
+    font-size: 3em;
+    padding: 40px 20px 20px;
+    /* You want three values. */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: arial;
+}
 
-        <li>
-            <h4>Seared Sea Scallops</h4>
-            <p>with artichoke duxelle, bacon brown butter and radish sprouts or seasoned with hiwa kai sea salt on
-                edamame
-                puree with citrus vinaigrette</p>
-            <p>$15.00</p>
-        </li>
 
-        <li>
-            <h4>Crispy Snow Crab Chinois</h4>
-            <p>with ginger, garlic and cilantro</p>
-            <p>$14.00</p>
-        </li>
+h2 {
+    background-color: rgb(137, 138, 142);
+    color: rgb(244, 244, 244);
+    font-size: 2.5em;
+    padding: 30px 20px 30px;
+    font-family: serif;
+    font-weight: bold;
 
-        <li>
-            <h4>Shrimp</h4>
-            <p>tempura with tomato, chipotle and avocado relish or sauteed, with artichoke duxelle, bacon brown butter
-                and
-                radish sprouts</p>
-            <p>$14.00</p>
-        </li>
-        <li>
-            <h4>Beef Filet Carpaccio</h4>
-            <p>horseradish aioli, shaved parmigiano reggiano, salad of celery root, parsley and sweet onion</p>
-            <p>$12.00</p>
-        </li>
+}
 
-        <li>
-            <h4>Sauteed Veal Sweetbread and Shrimp</h4>
-            <p>salad of shitake mushrooms, orange and field greens in sherry dressing</p>
-            <p>$14.00</p>
-        </li>
+h3 {
+    margin: 20px 20px 20px;
+    /*Three values again. You got the idea.*/
+    padding-top: 10px;
+    font-size: 1.25em;
+    color: rgb(161, 14, 14);
+    font-weight: bolder;
+    font-family: arial;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-top: 5rem;
+    border-top: 3.5px solid rgb(161, 14, 14);
+}
 
-    </ul>
+h4 {
+    font-weight: bold;
+    font-family: arial;
+}
 
-    <h3>Salads</h3>
-    <ul>
-        <li>
-            <h4>Butter Leaf and Fuji Apple</h4>
-            <p>maytag blue cheese, candied walnuts, champagne vinaigrette</p>
-            <p>$8.00</p>
-        </li>
+p.description {
+    font-family: arial;
+    font-style: italic;
+}
 
-        <li>
-            <h4>Caesar</h4>
-            <p>hearts of romaine, garlic croutons, spanish white anchovies, parmesano reggiano</p>
-            <p>$8.00</p>
-        </li>
+p.price {
+    color: rgb(173, 23, 23);
+    font-family: arial;
+}
 
-        <li>
-            <h4>Field Greens and Avocado BLT</h4>
-            <p>caramelized onion and bacon bruschetta, tomatoes and creamy red wine dressing</p>
-            <p>$9.00</p>
-        </li>
-    </ul>
+ul {
+    margin: 10px 10px 10px;
 
-    <h3>Entrees</h3>
-    <ul>
+}
 
-        <li>
-            <h4>Pan Roasted Chicken Breast</h4>
-            <p>artichoke risotto cake, grilled asparagus, mushroom marsala cream sauce and almond gremolata</p>
-            <p>$22.00</p>
-        </li>
-        <li>
-            <h4>Herb Roasted Halibut</h4>
-            <p>wild mushroom ravioli, sauteed spinach, basil vermouth sauce and melted tomatoes</p>
-            <p>$30.00</p>
-        </li>
-        <li>
-            <h4>Crispy Filet of Salmon</h4>
-            <p>on saffron pearl couscous with chorizo, menage au pois, lemon beurre blanc and roasted tomato, olive and
-                caper relish</p>
-            <p>$25.00</p>
-        </li>
+li {
+    margin: 10px 10px 10px;
+    list-style-type: disc;
+    list-style: none;
+    
 
-        <li>
-            <h4>Coriander Seared Sea Scallops and Shrimp</h4>
-            <p>spiced chucka soba noodles, asparagus and mushrooms, lemon ginger butter sauce</p>
-            <p>$28.00</p>
-        </li>
-        <li>
-            <h4>Sauteed Duck Breast and Confit of Duck</h4>
-            <p>spring vegetable and yukon gold hash with applewood smoked bacon and goat cheese, rainbow chard and port
-                blackberry sauce</p>
-            <p>$28.00</p>
-        </li>
 
-        <li>
-            <h4>Grilled Pork Chop</h4>
-            <p>roasted fingerling potatoes, corn, fava beans, cipollini, pancetta and watercress tarragon mustard sauce
-            </p>
-            <p>$25.00</p>
-        </li>
-
-    </ul>
-
-    <h3>Dessert</h3>
-    <ul>
-
-        <li>
-            <h4>Dark Chocolate Mousse</h4>
-            <p>with whipped cream and almond wafer</p>
-            <p>$10.00</p>
-        </li>
-        <li>
-            <h4>Creme Brulee</h4>
-            <p>french vanilla custard, fresh berries</p>
-            <p>$8.00</p>
-        </li>
-
-        <li>
-            <h4>Chocolate Lava Cake</h4>
-            <p>raspberry coulis, creme anglaise</p>
-            <p>$12.00</p>
-        </li>
-    </ul>
-
-</body>
-
-</html>
+}
