@@ -139,8 +139,8 @@ h3 {
     font-family: arial;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-    border-top: 3px solid rgb(161, 14, 14);
+    margin-top: 5rem;
+    border-top: 3.5px solid rgb(161, 14, 14);
 }
 
 h4 {
@@ -149,13 +149,13 @@ h4 {
 }
 
 p.description {
-    font-style: none;
+    font-family: arial;
+    font-style: italic;
 }
 
 p.price {
     color: rgb(173, 23, 23);
     font-family: arial;
-    font-style: italic;
 }
 
 ul {
@@ -167,6 +167,7 @@ li {
     margin: 10px 10px 10px;
     list-style-type: disc;
     list-style: none;
-    font-family: arial;
+
+
 
 }
