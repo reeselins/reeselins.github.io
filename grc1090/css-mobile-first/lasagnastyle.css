@@ -1,10 +1,98 @@
 /*CSS DOCUMENT*/
 
-html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+/*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
 
 img {
-    width: 100%; /*Please leave this line.*/
-     display: block;
+    width: 100%;
+    /*Please leave this line.*/
+    display: block;
 }
 
 
@@ -12,7 +100,7 @@ body {
     background-color: rgb(244, 244, 244);
 
     color: rgb(23, 22, 20);
-    
+
     font-family: serif;
 }
 
@@ -27,7 +115,7 @@ h1 {
     background-color: rgb(255, 140, 0);
     color: rgb(244, 244, 244);
     font-size: 3em;
-    padding: 1em 0.75em 0.5em;
+    padding: 0.8em 0.75em 0.25em;
     font-weight: 300;
     font-weight: bold;
     font-family: Sutro, serif;
@@ -38,13 +126,13 @@ h2 {
     background-color: rgb(255, 140, 0);
     color: rgb(245, 221, 188);
     font-size: 2em;
-    padding: 0.5em 1em 1em;
+    padding: 0em 1em 1em;
     font-family: Sutro, serif;
 
 }
 
 h3 {
-    margin: 1em 1em 1em;
+    margin: 1em 1.3em 1em;
     /*Three values again. You got the idea.*/
     padding-top: 10px;
     font-size: 1.25em;
@@ -54,32 +142,34 @@ h3 {
     letter-spacing: 0.03em;
 }
 
-h4 {
-    font-weight: bold;
-    font-family: arial;
-    color: rgb(47, 46, 46);
-}
-
-p.description {
-    font-family: arial;
-    font-style: italic;
-    color: rgb(47, 46, 46);
-}
-
-p.price {
-    color: rgb(173, 23, 23);
-    font-family: arial;
-}
 
 ul {
-    margin: 1em 1em 1em;
+    margin: 1em 0.8em 1em;
+    list-style: disc;
+    font-family: poppins, sans-serif;
+
+}
+
+ol {
+    margin: 1em 0.8em 1em;
+    list-style: number;
+    font-family: poppins, sans-serif;
+
 
 }
 
 li {
-    margin: 1em 1em 1em;
-    list-style-type: disc;
+    margin: 1em 0.8em 1em;
 
 
 
+}
+
+
+p {
+    font-family: poppins, sans-serif;
+    background-color: rgb(255, 140, 0);
+    color: rgb(244, 244, 244);
+    padding: 1em 0.75em 0.5em;
+    line-height: 1.5em;
 }
