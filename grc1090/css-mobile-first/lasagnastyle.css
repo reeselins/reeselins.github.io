@@ -11,33 +11,28 @@ img {
 body {
     background-color: rgb(244, 244, 244);
 
-    color: rgb(229, 135, 24);
-    
-    line-height: 160%;
+    color: rgb(23, 22, 20);
     
     font-family: serif;
 }
 
 h1 {
-    background-color: rgb(137, 138, 142);
+    background-color: rgb(255, 140, 0);
     color: rgb(244, 244, 244);
-    /* Same as body background. */
     font-size: 3em;
-    padding: 40px 20px 20px;
-    /* You want three values. */
+    padding: 1em 0.75em 0.5em;
+    font-weight: 300;
     font-weight: bold;
-    text-transform: uppercase;
-    font-family: arial;
+    font-family: Sutro, serif;
 }
 
 
 h2 {
-    background-color: rgb(137, 138, 142);
-    color: rgb(244, 244, 244);
-    font-size: 2.5em;
-    padding: 30px 20px 30px;
-    font-family: serif;
-    font-weight: bold;
+    background-color: rgb(255, 140, 0);
+    color: rgb(245, 221, 188);
+    font-size: 2em;
+    padding: 0.5em 1em 1em;
+    font-family: Sutro, serif;
 
 }
 
