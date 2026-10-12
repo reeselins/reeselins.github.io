@@ -1,140 +1,175 @@
-/*CSS DOCUMENT*/
+/*CSS document*/
 
-html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
-
-
-div.home-container { 
-	background: url(home-background.jpg) center center fixed;
-	background-size: cover;
-	position: relative;
-	min-height: 100vh;
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
 }
-
-div.container { 
-	position: relative;
-	min-height: 100vh;
-}
-
-/* >>> IMPORTANT: you have to change the wrap of the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class. And you need a div with the class container and all the other pages.  */
-
-
-main { 
-	padding: ____ ____ ____;
-	}
 
 img {
-    width: 100%; /*Please leave this line.*/
-     display: block;
+
+    width: 100%;
+
+    display: block;
+
 }
 
-header {
-	display: ____;
-	grid-template-columns: ____ ____;
-	background: rgb();
-	padding: ____ ____;
-	}
+
+body {
+    background-color: rgb(244, 244, 244);
+    /* Not totally white. */
+    color: rgb(34, 30, 30);
+    /* Not totally black. */
+    line-height: 160%;
+    /* A little extra leading. */
+    font-family: serif;
+}
 
 h1 {
-	width: ____;
-	}
+    background-color: rgb(137, 138, 142);
+    color: rgb(244, 244, 244);
+    /* Same as body background. */
+    font-size: 3em;
+    padding: 40px 20px 20px;
+    /* You want three values. */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: arial;
+}
 
-h2, h3, h4 {
-		font-weight: ____;
-	}
 
 h2 {
-	font-size: ____;
-	margin: ____ ____ ____;
-	}
-	
+    background-color: rgb(137, 138, 142);
+    color: rgb(244, 244, 244);
+    font-size: 2.5em;
+    padding: 30px 20px 30px;
+    font-family: serif;
+    font-weight: bold;
+
+}
+
 h3 {
-	font-size: ____;
-	margin: ____ ____ ____;
+    margin: 20px 20px 20px;
+    /*Three values again. You got the idea.*/
+    padding-top: 10px;
+    font-size: 1.25em;
+    color: rgb(161, 14, 14);
+    font-weight: bolder;
+    font-family: arial;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-top: 5rem;
+    border-top: 3.5px solid rgb(161, 14, 14);
 }
 
-
-a {
-	text-decoration: ____;
-	}
-
-nav ul  {
-	text-align: ____;
-	text-transform: uppercase;
-	color:blue;
-	}
-	
-ul li 	{
-	list-style-type: ____;
+h4 {
+    font-weight: bold;
+    font-family: arial;
+    color: rgb(47, 46, 46);
 }
 
-figure {
-	margin-bottom: ____;
-}
-
-main.menu ul {
-		margin: ____ ____;
-}	
-
-main.menu ul li {
-		margin: ____ ____ ____;
-		display: ____;
-		grid-template-columns: auto auto;
-		grid-template-rows: auto auto;
-}	
-
-p {
-	margin: ____ ____ ____;
-	}
-	
 p.description {
-	grid-column: ____;
-	margin: ____;
-	}
-	
+    font-family: arial;
+    font-style: italic;
+    color: rgb(47, 46, 46);
+}
+
 p.price {
-	grid-row: ____;
-	grid-column: ____;
-	color: ____;
-	text-align: ____;
-	margin: ____;
-	}
-	
-nav ul li {
-	text-transform: ____;
-	font-weight: ____;
-	margin-bottom: ____;
-	}
-	
-nav ul li a {
-	color: ____;
-	background-color: ____;
-	padding: ____ ____ ____;
-	}
-	
-
-p.slogan {
-	font-size: 3em;
-	font-family: serif;
-	font-style: italic;
-	margin: 2rem 2rem 2rem 2rem;
-	color: white;	
-	}
-	
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 3rem; 
-  box-sizing: border-box;
-  padding: ____ ____;
-  background: ____;
+    color: rgb(173, 23, 23);
+    font-family: arial;
 }
 
-address {
-	color: ____;
-	}
+ul {
+    margin: 10px 10px 10px;
 
-footer p {
-	margin: 0;
 }
 
+li {
+    margin: 10px 10px 10px;
+    list-style-type: disc;
+    list-style: none;
+
+
+
+}
