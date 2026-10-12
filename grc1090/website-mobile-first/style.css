@@ -4,7 +4,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 
 div.home-container { 
-	background: url(images/home-background.jpg) center center fixed;
+	background: url(home-background.jpg) center center fixed;
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
@@ -30,7 +30,7 @@ img {
 header {
 	display: ____;
 	grid-template-columns: ____ ____;
-	background: ____;
+	background: rgb();
 	padding: ____ ____;
 	}
 
@@ -59,6 +59,8 @@ a {
 
 nav ul  {
 	text-align: ____;
+	text-transform: uppercase;
+	color:blue;
 	}
 	
 ul li 	{
@@ -111,11 +113,11 @@ nav ul li a {
 	
 
 p.slogan {
-	font-size: ____;
-	font-family: ____;
-	font-style: ____;
-	margin: ____ ____ ____;
-	color: ____;	
+	font-size: 3em;
+	font-family: serif;
+	font-style: italic;
+	margin: 2rem 2rem 2rem 2rem;
+	color: white;	
 	}
 	
 footer {
