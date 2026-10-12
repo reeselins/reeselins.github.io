@@ -1,0 +1,237 @@
+/*CSS DOCUMENT*/
+
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+/*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+
+div.home-container {
+	background: url(home-background.jpg) center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+}
+
+div.container {
+	position: relative;
+	min-height: 100vh;
+}
+
+/* >>> IMPORTANT: you have to change the wrap of the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class. And you need a div with the class container and all the other pages.  */
+
+
+main {
+	padding: ____ ____ ____;
+}
+
+img {
+	width: 100%;
+	/*Please leave this line.*/
+	display: block;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	background: rgb(204 204 204);
+	padding: 1rem 1rem 3rem 1rem;
+}
+
+h1 {
+	width: 60%;
+}
+
+h2,
+h3,
+h4 {
+	font-weight: ____;
+}
+
+h2 {
+	font-size: ____;
+	margin: ____ ____ ____;
+}
+
+h3 {
+	font-size: ____;
+	margin: ____ ____ ____;
+}
+
+
+a {
+	text-decoration: ____;
+}
+
+nav ul {
+	text-align: ____;
+	text-transform: uppercase;
+	color: rgb(255 255 56);
+
+
+}
+
+ul li {
+	list-style-type: none;
+}
+
+figure {
+	margin-bottom: ____;
+}
+
+main.menu ul {
+	margin: ____ ____;
+}
+
+main.menu ul li {
+	margin: ____ ____ ____;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+p {
+	margin: ____ ____ ____;
+}
+
+p.description {
+	grid-column: ____;
+	margin: ____;
+}
+
+p.price {
+	grid-row: ____;
+	grid-column: ____;
+	color: ____;
+	text-align: ____;
+	margin: ____;
+}
+
+nav ul li {
+	text-transform: ____;
+	font-weight: ____;
+	margin-bottom: ____;
+}
+
+nav ul li a {
+	color: rgb(255 255 56);
+	font-weight: bold;
+	font-family: arial;
+	background-color: blue;
+	margin: 1rem 2rem 1rem 1rem;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+
+p.slogan {
+	font-size: 4.5em;
+	font-family: serif;
+	font-style: italic;
+	margin: 4rem 0.5rem 0rem 2rem;
+	color: white;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 3rem;
+	box-sizing: border-box;
+	padding: ____ ____;
+	background: ____;
+}
+
+address {
+	color: rgb(229 135 24);
+	margin: 8rem 0rem 5rem 2rem;
+	font-size: 1rem;
+}
+
+footer p {
+	background-color: rgb(255 255 56);
+	padding: 1rem 1rem 1rem 1rem;
+}
