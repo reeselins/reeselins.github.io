@@ -231,6 +231,8 @@ address {
     color: rgb(229 135 24);
     font-size: 1rem;
     font-family: sans-serif;
+    margin-bottom: 15rem;
+    margin-top: 8rem;
 }
 
 footer p {
