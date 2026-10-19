@@ -105,6 +105,7 @@ div.container {
 
 main {
     padding: 2rem 1rem;
+    padding-bottom: 5rem;
 }
 
 img {
@@ -117,7 +118,7 @@ header {
     display: grid;
     grid-template-columns: 3fr 1fr;
     background: rgb(204 204 204);
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem 0.5rem 1rem 1rem;
 }
 
 h1 {
@@ -127,22 +128,23 @@ h1 {
 h2 {
     font-weight: bold;
     font-family: sans-serif;
-    font-size: 3rem;
-    margin: 1rem 0rem 1rem 1rem;
+    font-size: 2rem;
+    margin: 0.5rem 0rem 0rem 1rem;
 }
 
 h3 {
     font-weight: bolder;
     font-family: sans-serif;
-    font-size: 2rem;
-    margin: 1.5rem 0rem 1rem 1rem;
+    font-size: 1.5rem;
+    margin: 2rem 0rem 1rem 0.5em;
 }
 
 
 h4 {
     font-weight: bold;
     font-family: sans-serif;
-    margin: 1rem 0rem 1rem 1rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 
@@ -162,31 +164,36 @@ ul li {
 }
 
 figure {
-    margin-bottom: ____;
+    margin: 0rem 1rem 0rem 1rem;
 }
 
-main.menu ul {
-    margin: 1rem 1rem 1rem 1rem;
-}
+
 
 main.menu ul li {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.2em 1fr;
+    margin: 2rem 1rem 1rem 1rem;
 }
 
 p {
     font-family: sans-serif;
-    margin: 1.5rem 0rem 2rem 1rem;
+}
+
+article p {
+    margin: 1rem 1rem 1.5rem 1rem;
 }
 
 p.description {
-    margin: 1rem 1rem 1rem 1rem;
+    grid-column: 1/3;
+    grid-row: 2/3;
 }
 
 p.price {
     color: red;
     text-align: right;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 p.hours {
@@ -204,7 +211,7 @@ nav ul li a {
     font-family: sans-serif;
     background-color: blue;
     margin: 1rem 0rem 1rem 1rem;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.5rem;
 }
 
 
@@ -212,7 +219,7 @@ p.slogan {
     font-size: 4.5em;
     font-family: serif;
     font-style: italic;
-    margin: 4rem 0.5rem 0rem 2rem;
+    margin: 4rem 1rem 7rem 2rem;
     color: white;
 }
 
@@ -223,16 +230,14 @@ footer {
     height: 3rem;
     box-sizing: border-box;
     background-color: rgb(255 255 56);
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 0rem 1rem;
 
 }
 
-address {
-    color: rgb(229 135 24);
-    font-size: 1rem;
+address p {
+    color: rgb(255, 144, 17);
     font-family: sans-serif;
-    margin-bottom: 15rem;
-    margin-top: 8rem;
+    margin: 0rem 1rem 0rem 1rem;
 }
 
 footer p {
