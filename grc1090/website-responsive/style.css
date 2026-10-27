@@ -195,7 +195,7 @@ main.menu ul {
 main.menu ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     margin: 2rem 1rem 1rem 1rem;
 }
 
