@@ -125,16 +125,18 @@ img {
     display: block;
 }
 
+header img {
+
+    min-width: 10em;
+}
+
 header {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 2fr;
     background: rgb(204, 204, 204);
     padding: 1rem 0.5rem 1.5rem 1rem;
 }
 
-h1 {
-    width: 40%;
-}
 
 h2 {
     font-weight: bold;
@@ -170,11 +172,8 @@ nav {
 }
 
 nav ul {
-    display: flex;
-    color: rgb(255, 255, 56);
     margin: 2rem 1rem 1rem 0rem;
-
-
+    text-align: right;
 }
 
 ul li {
@@ -186,11 +185,7 @@ figure {
 }
 
 
-main.menu ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 
-}
 
 main.menu ul li {
     display: grid;
@@ -235,13 +230,14 @@ p.price {
     grid-row: 1/2;
 }
 
-p.hours {
+li.hours {
     margin: 0.5rem 0rem 1.5rem 0rem;
 }
 
 nav ul li {
     text-transform: uppercase;
     font-weight: bold;
+    margin: 2em 0em 1em 1em;
 }
 
 nav ul li a {
@@ -302,4 +298,18 @@ footer p {
         font-size: 1.5rem;
     }
 
+    nav ul li {
+
+        display: inline;
+    }
+
+    main.menu ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    nav ul {
+        padding-top: 1.5rem;
+    }
 }
